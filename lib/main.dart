@@ -97,12 +97,12 @@ void _pushSaved() {
           )
               .toList();
 
-        return new Scaffold(         // Add 6 lines from here...
+        return new Scaffold(       
           appBar: new AppBar(
             title: const Text('Saved Suggestions'),
           ),
           body: new ListView(children: divided),
-        );                           // ... to here.
+        );
       },
     ),
   );
